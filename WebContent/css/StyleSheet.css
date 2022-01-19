@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h2 {color: maroon;}
+
+input[type=submit] {background-color: maroon;
+					padding: 6px;
+					color: white;
+					font-family: Ariel;
+					font-weight: bold;
+					width: 250px;}
+					
+input[type=text] {float: right;}
+
+form {width : 280px;
+    	padding: 8px 8px;}
+
+label {float: left;}

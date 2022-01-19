@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>UserRegistrationApp</display-name>
+  <servlet>
+  	<servlet-name>PersonalInfoServlet</servlet-name>
+  	<servlet-class>com.lavanya.gudimella.controller.PersonalInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>PersonalInfoServlet</servlet-name>
+  	<url-pattern>/PersonalInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>ContactInfoServlet</servlet-name>
+  	<servlet-class>com.lavanya.gudimella.controller.ContactInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ContactInfoServlet</servlet-name>
+  	<url-pattern>/ContactInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>BankInfoServlet</servlet-name>
+  	<servlet-class>com.lavanya.gudimella.controller.BankInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>BankInfoServlet</servlet-name>
+  	<url-pattern>/BankInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>GetPersonListServlet</servlet-name>
+  	<servlet-class>com.lavanya.gudimella.controller.GetPersonListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetPersonListServlet</servlet-name>
+  	<url-pattern>/GetPersonListServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AskForEmailAddressServlet</servlet-name>
+  	<servlet-class>com.lavanya.gudimella.controller.AskForEmailAddressServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AskForEmailAddressServlet</servlet-name>
+  	<url-pattern>/AskForEmailAddressServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>UpdatePersonServlet</servlet-name>
+  	<servlet-class>com.lavanya.gudimella.controller.UpdatePersonServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdatePersonServlet</servlet-name>
+  	<url-pattern>/UpdatePersonServlet</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>DeletePersonServlet</servlet-name>
+  	<servlet-class>com.lavanya.gudimella.controller.DeletePersonServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeletePersonServlet</servlet-name>
+  	<url-pattern>/DeletePersonServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
